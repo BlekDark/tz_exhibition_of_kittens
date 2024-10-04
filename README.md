@@ -8,9 +8,9 @@
 
 Сначала клонируйте репозиторий с помощью `git`:
 
-    ```bash
-    git clone git@github.com:BlekDark/tz_exhibition_of_kittens.git
-
+```bash
+git clone git@github.com:BlekDark/tz_exhibition_of_kittens.git
+```
 
 2. Запуск приложения через Docker Compose
 
@@ -18,16 +18,16 @@
 
 Запустите сборку и контейнеры с помощью Docker Compose:
 
-    ```bash
-    docker-compose up --build
+```bash
+docker-compose up --build
+```
 
 Это запустит приложение и все его зависимости в Docker-контейнерах. После успешного запуска приложение будет доступно по адресу: http://localhost:8000.
 
 3. Документация Swagger
 Когда приложение запущено, вы можете получить доступ к автоматически сгенерированной документации API Swagger по следующему адресу:
 
-    ```
-    http://localhost:8000/docs
+http://localhost:8000/docs
 
 ## Запуск тестов
 
@@ -36,8 +36,9 @@
 1. Запуск тестов
 Для запуска тестов выполните следующую команду в корневой директории проекта:
 
-    ```bash
-    docker-compose exec web pytest
+```bash
+docker-compose exec web pytest
+```
 
 2. Добавление тестов
 Вы можете добавлять свои тесты в директорию tests/, и они будут выполнены при следующем запуске команды pytest.
@@ -46,8 +47,9 @@
 
 Для остановки и удаления контейнеров выполните:
 
-    ```bash
-    docker-compose down
+```bash
+docker-compose down
+```
 
 ## Структура проекта
 
